@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="DataSourceManagerImpl" format="xml" multifile-model="true">
+    <data-source source="LOCAL" name="RU-PII-ETL" uuid="135e37b1-2004-43d7-b89a-d34a51392292">
+      <driver-ref>sqlserver.ms</driver-ref>
+      <synchronize>true</synchronize>
+      <jdbc-driver>com.microsoft.sqlserver.jdbc.SQLServerDriver</jdbc-driver>
+      <jdbc-url>jdbc:sqlserver://ru-pii-etl:1433;databaseName=etl_db</jdbc-url>
+    </data-source>
+    <data-source source="LOCAL" name="STATIC_ROOT = os.path.join(BASE_DIR, 'static')" uuid="f21a00fb-bc24-4067-b852-8c7435ea007a">
+      <driver-ref>sqlite.xerial</driver-ref>
+      <synchronize>true</synchronize>
+      <jdbc-driver>org.sqlite.JDBC</jdbc-driver>
+      <jdbc-url>jdbc:sqlite:$PROJECT_DIR$/../web_site_django\STATIC_ROOT = os.path.join(BASE_DIR, 'static')</jdbc-url>
+    </data-source>
+  </component>
+</project>
